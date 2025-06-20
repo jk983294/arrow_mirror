@@ -747,12 +747,6 @@ if(ARROW_BUILD_EXAMPLES)
   add_subdirectory(examples/arrow)
 endif()
 
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/../LICENSE.txt
-              ${CMAKE_CURRENT_SOURCE_DIR}/../NOTICE.txt
-              ${CMAKE_CURRENT_SOURCE_DIR}/README.md DESTINATION "${ARROW_DOC_DIR}")
-
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/gdb_arrow.py DESTINATION "${ARROW_GDB_DIR}")
-
 #
 # Validate and print out Arrow configuration options
 #
