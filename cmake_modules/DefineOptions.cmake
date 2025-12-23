@@ -496,8 +496,8 @@ takes precedence over ccache if a storage backend is configured" ON)
   define_option(ARROW_LLVM_USE_SHARED "Rely on LLVM shared libraries where relevant"
                 ${ARROW_LLVM_USE_SHARED_DEFAULT})
 
-  define_option(ARROW_LZ4_USE_SHARED "Rely on lz4 shared libraries where relevant"
-                ${ARROW_DEPENDENCY_USE_SHARED})
+  # define_option(ARROW_LZ4_USE_SHARED "Rely on lz4 shared libraries where relevant"
+  #               ${ARROW_DEPENDENCY_USE_SHARED})
 
   define_option(ARROW_OPENSSL_USE_SHARED
                 "Rely on OpenSSL shared libraries where relevant"
