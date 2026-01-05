@@ -374,7 +374,7 @@ takes precedence over ccache if a storage backend is configured" ON)
 
   define_option(ARROW_PARQUET
                 "Build the Parquet libraries"
-                OFF
+                ON
                 DEPENDS
                 ARROW_IPC)
 
